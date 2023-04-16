@@ -1,0 +1,2 @@
+#!/bin/sh
+exec emcc -sMEMORY64=1 -mtail-call --oformat object "$@"

@@ -1,0 +1,1 @@
+include $(R)/src/portal-uefi/makefile.mk

@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+    "src/portal-uefi",
+    "src/more-wasm3"
+]
+exclude = ["out"]

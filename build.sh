@@ -1,0 +1,1 @@
+R=$(pwd) O=$(pwd)/out make -j$(nproc) -C $1 $(pwd)/out/$2

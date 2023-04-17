@@ -71,7 +71,7 @@ fn init<'rt>(mut x: wasm3::Module<'rt>, ctx: Rc<RefCell<WaCtx>>, rt: &'rt wasm3:
             arrayref::array_mut_ref![(&*c.memory()),a,65536]
         };
         *i = h;
-        return Ok(());
+        return Ok(a);
     });
     x.link_closure("portal", "ipc", |c,(m,v)|{
         let mut b = ctx.borrow_mut();

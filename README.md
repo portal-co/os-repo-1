@@ -1,13 +1,14 @@
 # os-repo-1
 
 ## Description
-Project os-repo-1
+An OS repository containing "portal-uefi" and "more-wasm3", suggesting a UEFI bootloader or runtime environment with WASM support.
 
 ## Goals
-- [ ] Add project goals
+- [ ] Develop UEFI application/loader
+- [ ] Integrate WASM runtime (`wasm3`)
 
 ## Progress
-- [ ] Initial setup
+- [ ] Workspace setup
 
 ---
 *AI assisted*
